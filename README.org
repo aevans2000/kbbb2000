@@ -1,0 +1,32 @@
+#+TITLE: Data from Keysar, Barr, Balin, & Braunder (2000)
+#+AUTHOR: Dale Barr
+
+This repository contains data from:
+
+Keysar, B., Barr, D. J., Balin, J. A., Brauner, J. S. (2000).  Taking perspective in conversation: The role of mutual knowledge in comprehension.  /Psychological Science/, /11/, 32--38.
+
+* TODO Experiment 1
+
+- Data for this experiment is in the process of being cleaned / uploaded
+
+* Experiment 2
+
+Experiment 2 replicated Experiment 1, except that we manipulated subjects' beliefs about the source of the privileged objects.  This independent variable, =psource= had two levels: =EX= and =RN=, corresponding to whether participants were led to believe that experimenter chose the privileged objects (=EX=) or that the privileged objects were chosen randomly, by lottery (=RN=).  This experiment is described on pages 35--37 of the paper.
+
+There are two data files in the =exp2= directory, with the following variables.
+
+** =exp2_subjects.csv=
+
+| =subj=  | unique integer identifying each subject |
+| =psource= | condition subject was in (=EN=, =RN=)   |
+
+** =exp2_trials.csv=
+
+| =subj=     | unique integer identifying each subject                                       |
+| =object=   | experimental stimulus identifier                                              |
+| =cond=     | whether critical hidden object was competitor (=E=) or noncompetitor (=C=)    |
+| =firstfix= | first fixation on the target (in milliseconds)                                |
+| =rt=       | final fixation on the target (in milliseconds)                                |
+| =regrab=   | reaches/grabs of critical hidden object (=R= = reach, =G= = grab, =-= = none) |
+| =nfix=     | number of fixations on the critical hidden object                             |
+| =totfix=   | total fixation time on critical hidden object (in milliseconds)               |
