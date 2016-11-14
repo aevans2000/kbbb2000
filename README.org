@@ -11,7 +11,9 @@ Keysar, B., Barr, D. J., Balin, J. A., Brauner, J. S. (2000).  Taking perspectiv
 
 * Experiment 2
 
-Experiment 2 replicated Experiment 1, except that we manipulated subjects' beliefs about the source of the privileged objects.  This independent variable, =psource= had two levels: =EX= and =RN=, corresponding to whether participants were led to believe that experimenter chose the privileged objects (=EX=) or that the privileged objects were chosen randomly, by lottery (=RN=).  This experiment is described on pages 35--37 of the paper.
+Experiment 2 replicated Experiment 1, except that we manipulated subjects' beliefs about the source of the privileged objects.  This experiment is described on pages 35--37 of the paper.  The rationale for this additional manipulation was to see whether Experiment 1's results were due to participants making privileged information relevant because the experimenter was the source.  If participants believed that the experimenter chose the hidden objects, they might see them as relevant; however, if they believed that the hidden objects were chosen randomly, then they should not.
+
+This independent variable, =psource= had two levels: =EX= and =RN=, corresponding to whether participants were led to believe whether privileged objects were chosen by the experimenter (=EX=) or randomly (=RN=).  In the former condition, the participant was simply given a box without explanation that contained the hidden objects and asked to hide them from the speaker while the speaker's view was obscured by a partition.  In the latter condition, the participant drew numbers from a bag and called them out to the experimenter.  Before the experiment began, participants in this condition were led to believe that the experimenter had a numbered grid of objects, and that the numbers that he/she chose determined which objects the experimenter put in the box for participants to hide from the speaker.  This manipulation is mentioned in Footnote 2 on page 36.  
 
 There are two data files in the =exp2= directory, with the following variables.
 
