@@ -1,4 +1,4 @@
-#+TITLE: Data from Keysar, Barr, Balin, & Braunder (2000)
+#+TITLE: Data from Keysar, Barr, Balin, & Brauner (2000)
 #+AUTHOR: Dale Barr
 
 This repository contains data from:
