@@ -20,7 +20,7 @@ There are two data files in the =exp2= directory, with the following variables.
 ** =exp2_subjects.csv=
 
 | =subj=  | unique integer identifying each subject |
-| =psource= | condition subject was in (=EN=, =RN=)   |
+| =psource= | condition subject was in (=EX=, =RN=)   |
 
 ** =exp2_trials.csv=
 
